@@ -1,5 +1,5 @@
 # telegram_nsfw_check_bot
-一个telegram bot，利用[nsfwjs-api](https://github.com/qi-mooo/nsfwjs-api)检测图片是否是nsfw，可选自动打码重发(群内发送 /toggle_spoiler 设置)
+一个telegram bot，利用[nsfwjs-api](https://github.com/qi-mooo/nsfwjs-api)检测图片是nsfw自动删除，可选自动打码重发(群内发送 /toggle_spoiler 设置)
 ## docker
 ```
 docker pull qimooo/telegram_nsfw_check_bot:latest
