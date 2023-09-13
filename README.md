@@ -8,3 +8,4 @@ docker pull qimooo/telegram_nsfw_check_bot:latest
 docker run -d -e API_HASH=your_api_hash -e API_ID=your_api_id -e API_URL=your_api_url -e BOT_TOKEN=your_bot_token qimooo/telegram_nsfw_check_bot:latest
 
 ```
+工作目录是 /usr/src/app 图片保存在 downloads 并且不会自动删除，sqlite也在，建议挂载目录
